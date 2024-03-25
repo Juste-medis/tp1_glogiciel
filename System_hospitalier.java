@@ -27,19 +27,19 @@ public class System_hospitalier {
 
     public void recevoirRequete(Requête requete) {
         listRequetes.add(requete);
-        String analyse =  analyserRequete(requete);
+        String analyse = analyserRequete(requete);
         String comparaisonDonnees = comparerDonnes();
         System.out.println(analyse);
         System.out.println(comparaisonDonnees);
     }
 
     private String analyserRequete(Requête requête) {
-        
+        // cette methode permet d'analyser la requête
         return "requête analysée";
     }
 
     private String comparerDonnes() {
-        
+        // cette methode permet de comparer les données
         return "Cluster trouvé";
     }
 
